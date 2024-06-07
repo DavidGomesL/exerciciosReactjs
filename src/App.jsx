@@ -1,12 +1,16 @@
-import ExemploUm from "./components/ExemploUm"
+import ExemploProps from "./components/ExemploProps"
 
 
 function App() {
   
   return (
     <>
-      <h1>Olá, mundo</h1>
-      <ExemploUm />
+      <ExemploProps 
+      title = "Título Um"
+      />
+      <ExemploProps 
+      title = "Título Dois"
+      />
     </>
   )
 }

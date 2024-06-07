@@ -5,12 +5,12 @@ export default function ExemploUm() {
         email: "david@gmail.com"
     };
 
-    let a = 100
-    let b = 19
+    let a = 100;
+    let b = 19;
 
     function soma(a,b) {
         return a + b
-    }
+    };
         
     return(
         <>
